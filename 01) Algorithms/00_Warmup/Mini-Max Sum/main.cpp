@@ -17,16 +17,16 @@ long int maximum(long int a, long int b) {
 
 int main() {
 
-    long int a; 
-    long int b; 
-    long int c; 
-    long int d;
-    long int e;
-    scanf("%ld %ld %ld %ld %ld",&a,&b,&c,&d,&e);
+	long int a; 
+	long int b; 
+	long int c; 
+	long int d;
+	long int e;
+	scanf("%ld %ld %ld %ld %ld",&a,&b,&c,&d,&e);
 
 	long int sum = a + b + c + d + e;
-    long int min = a;
-    long int max = a;
+	long int min = a;
+	long int max = a;
 
 	min = minimum(min, b);
 	min = minimum(min, c);
@@ -39,8 +39,8 @@ int main() {
 	max = maximum(max, e);
 
 	printf("%ld %ld\n", sum - max, sum - min);
-    
-    return 0;
+
+	return 0;
 }
 
 
