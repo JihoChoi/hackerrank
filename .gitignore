@@ -1,0 +1,7 @@
+# mac OS junk
+.DS_Store
+*.dSYM
+
+# executable
+*.out 
+main

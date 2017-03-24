@@ -1,5 +1,6 @@
 CC = g++
-CFLAGS = -I. -Werror -Wall -pthread -g
+# CFLAGS = -I. -Werror -Wall -pthread -g
+CFLAGS = -Werror -Wall
 
 all: clean main
 
